@@ -1,0 +1,21 @@
+{
+  "name": "geggleto/reactive-slim",
+  "description": "React PHP Slim",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Glenn Eggleton",
+      "email": "geggleto@gmail.com"
+    }
+  ],
+  "require": {
+    "react/http": "dev-master",
+    "slim/slim": "3.0.0-RC2",
+    "zendframework/zend-diactoros": "1.2.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Geggleto\\" : "src"
+    }
+  }
+}
